@@ -19,8 +19,17 @@ import Userupdate from "./components/Userupdate";
 import ShoppingLIst from "./components/ShoppingLIst";
 import Useeffectpractise from "./components/Useeffectpractise";
 import FatchData from "./components/FatchData";
+import Compo1 from "./components/compo1";
+import { createContext } from "react";
+import Usereducerfunction from "./components/Usereducerfunction";
+import Userefpractise from "./components/Userefpractise";
+import Timer from "./components/Timer";
+export const Dataa = createContext();
+export const Dataa1 = createContext();
 
 const App = () => {
+  const bike = "Hero xpuse 200 4v";
+  const kimat = 200000;
   return (
     <>
       <Header />
@@ -46,6 +55,14 @@ const App = () => {
       <ShoppingLIst />
       <Useeffectpractise />
       <FatchData />
+      <Dataa.Provider value={bike}>
+        <Dataa1.Provider value={kimat}>
+          <Compo1 />
+        </Dataa1.Provider>
+      </Dataa.Provider>
+      <Usereducerfunction />
+      <Userefpractise />
+      <Timer />
     </>
   );
 };
