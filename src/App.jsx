@@ -1,4 +1,3 @@
-import Footer from "./components/Footer";
 import Greeting from "./components/Greeting";
 import Header from "./components/Header";
 import Maincontent from "./components/Maincontent";
@@ -34,7 +33,6 @@ const App = () => {
     <>
       <Header />
       <Maincontent />
-      <Footer />
       <Greeting />
       <Product />
       <Userlist />
