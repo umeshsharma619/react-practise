@@ -21,7 +21,6 @@ import FatchData from "./components/FatchData";
 import Compo1 from "./components/compo1";
 import { createContext } from "react";
 import Usereducerfunction from "./components/Usereducerfunction";
-import Userefpractise from "./components/Userefpractise";
 import Timer from "./components/Timer";
 export const Dataa = createContext();
 export const Dataa1 = createContext();
@@ -49,7 +48,6 @@ const App = () => {
       <Savename />
       <Counter />
       <Todolist />
-      <Userupdate />
       <ShoppingLIst />
       <Useeffectpractise />
       <FatchData />
