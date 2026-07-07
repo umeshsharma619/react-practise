@@ -14,7 +14,6 @@ import Random from "./components/random";
 import Savename from "./components/Savename";
 import Counter from "./components/counter";
 import Todolist from "./components/Todolist";
-import Userupdate from "./components/Userupdate";
 import ShoppingLIst from "./components/ShoppingLIst";
 import Useeffectpractise from "./components/Useeffectpractise";
 import FatchData from "./components/FatchData";
