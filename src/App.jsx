@@ -58,7 +58,6 @@ const App = () => {
       </Dataa.Provider>
       <Usereducerfunction />
       <Userefpractise />
-      <Timer />
     </>
   );
 };
