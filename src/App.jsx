@@ -21,7 +21,7 @@ import FatchData from "./components/FatchData";
 import Compo1 from "./components/compo1";
 import { createContext } from "react";
 import Usereducerfunction from "./components/Usereducerfunction";
-import Timer from "./components/Timer";
+import Timerstop from "./components/Timerstop";
 export const Dataa = createContext();
 export const Dataa1 = createContext();
 
@@ -58,6 +58,7 @@ const App = () => {
       </Dataa.Provider>
       <Usereducerfunction />
       <Userefpractise />
+      <Timerstop />
     </>
   );
 };
