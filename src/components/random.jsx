@@ -9,7 +9,7 @@ const Random = () => {
     <div>
       <h1>count:{random}</h1>
       <button onClick={() => setRandom(Math.round(Math.random() * 100))}>
-        newnumber
+        newnumbersit 
       </button>
     </div>
   );
