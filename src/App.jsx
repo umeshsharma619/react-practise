@@ -13,7 +13,6 @@ import Random from "./components/random";
 import Savename from "./components/Savename";
 import Counter from "./components/counter";
 import Todolist from "./components/Todolist";
-import ShoppingLIst from "./components/ShoppingLIst";
 import Useeffectpractise from "./components/Useeffectpractise";
 import FatchData from "./components/FatchData";
 import Compo1 from "./components/compo1";
@@ -46,7 +45,6 @@ const App = () => {
       <Savename />
       <Counter />
       <Todolist />
-      <ShoppingLIst />
       <Useeffectpractise />
       <FatchData />
       <Dataa.Provider value={bike}>
