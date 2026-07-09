@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const ShoppingLIst = () => {
+const ShoppinLIst = () => {
   const [item, setItem] = useState([]);
   const [name, setName] = useState("");
   const [quantity, setQuantity] = useState("");
@@ -50,4 +50,4 @@ const ShoppingLIst = () => {
   );
 };
 
-export default ShoppingLIst;
+export default ShoppinLIst;
