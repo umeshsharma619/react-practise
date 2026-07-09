@@ -19,6 +19,7 @@ import Compo1 from "./components/compo1";
 import { createContext } from "react";
 import Usereducerfunction from "./components/Usereducerfunction";
 import Timerstop from "./components/Timerstop";
+import ShoppinLIst from "./shoplist";
 export const Dataa = createContext();
 export const Dataa1 = createContext();
 
@@ -54,6 +55,7 @@ const App = () => {
       </Dataa.Provider>
       <Usereducerfunction />
       <Timerstop />
+      <ShoppinLIst />
     </>
   );
 };
