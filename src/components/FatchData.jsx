@@ -1,18 +1,8 @@
 import { useEffect, useState } from "react";
+import useFetch from "./useFetch";
 
 const FatchData = () => {
-  const [data, setData] = useState([]);
-  useEffect(() => {
-    async function getdata() {
-      const response = await fetch(
-        "https://jsonplaceholder.typicode.com/posts",
-      );
-      const data = await response.json();
-
-      return setData(data);
-    }
-    getdata();
-  }, []);
+  const [data] = useFetch("https://jsonplaceholder.typicode.com/posts");
 
   return (
     <div>
