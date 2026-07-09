@@ -10,7 +10,7 @@ const Savename = () => {
   });
   return (
     <div>
-      <h1>your namr:{name}</h1>
+      <h1>your name:{name}</h1>
       <input
         type="text"
         value={name}
