@@ -1,2 +1,4 @@
-function Propractise() {}
+function Propractise({ children }) {
+  return <>{children}</>;
+}
 export default Propractise;
