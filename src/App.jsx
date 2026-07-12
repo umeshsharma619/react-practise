@@ -21,6 +21,7 @@ import Usereducerfunction from "./components/Usereducerfunction";
 import Timerstop from "./components/Timerstop";
 import ShoppinLIst from "./shoplist";
 import Propractise from "./components/Propractise";
+import UseIduse from "./useIduse";
 export const Dataa = createContext();
 export const Dataa1 = createContext();
 
@@ -57,6 +58,7 @@ const App = () => {
       <Usereducerfunction />
       <Timerstop />
       <ShoppinLIst />
+      <UseIduse />
       <Propractise>
         <h1>welcome gabber </h1>
         <p>
@@ -67,6 +69,7 @@ const App = () => {
           possimus vel ad. Repellat placeat veniam quis accusantium. Cumque.
         </p>
       </Propractise>
+      <UseIduse />
     </>
   );
 };
