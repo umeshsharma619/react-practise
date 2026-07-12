@@ -20,6 +20,7 @@ import { createContext } from "react";
 import Usereducerfunction from "./components/Usereducerfunction";
 import Timerstop from "./components/Timerstop";
 import ShoppinLIst from "./shoplist";
+import Propractise from "./components/Propractise";
 export const Dataa = createContext();
 export const Dataa1 = createContext();
 
@@ -56,6 +57,16 @@ const App = () => {
       <Usereducerfunction />
       <Timerstop />
       <ShoppinLIst />
+      <Propractise>
+        <h1>welcome gabber </h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
+          assumenda sequi enim nemo. Iusto dolorem aperiam repellendus iste,
+          impedit expedita. Optio est rerum cum, ab dolor assumenda, vitae
+          ratione voluptatum temporibus odio sed culpa aspernatur expedita
+          possimus vel ad. Repellat placeat veniam quis accusantium. Cumque.
+        </p>
+      </Propractise>
     </>
   );
 };
