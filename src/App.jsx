@@ -24,6 +24,7 @@ import Propractise from "./components/Propractise";
 import UseIduse from "./useIduse";
 import WIthmemo from "./components/Withmemo";
 import WIthoutmemo from "./components/WIthoutmemo";
+import Userlay from "./components/Userlay";
 export const Dataa = createContext();
 export const Dataa1 = createContext();
 
@@ -74,6 +75,7 @@ const App = () => {
       <UseIduse />
       <WIthmemo />
       <WIthoutmemo />
+      <Userlay />
     </>
   );
 };
