@@ -22,6 +22,8 @@ import Timerstop from "./components/Timerstop";
 import ShoppinLIst from "./shoplist";
 import Propractise from "./components/Propractise";
 import UseIduse from "./useIduse";
+import WIthmemo from "./components/Withmemo";
+import WIthoutmemo from "./components/WIthoutmemo";
 export const Dataa = createContext();
 export const Dataa1 = createContext();
 
@@ -70,6 +72,8 @@ const App = () => {
         </p>
       </Propractise>
       <UseIduse />
+      <WIthmemo />
+      <WIthoutmemo />
     </>
   );
 };
